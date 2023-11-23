@@ -1,35 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>iPhone Calculator</title>
-  <link rel="stylesheet" href="styles.css">
+    <title>My Resume</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .header { background-color: #f1f1f1; padding: 20px; text-align: center; }
+        .section { padding: 20px; }
+        .section-title { color: #333; font-size: 24px; margin-bottom: 10px; }
+        .section-content { font-size: 16px; }
+        .experience-item, .education-item { margin-bottom: 15px; }
+    </style>
 </head>
 <body>
-  <div class="calculator">
-    <div class="display">
-      <div class="input">0</div>
+    <div class="header">
+        <h1>Your Name</h1>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>Phone: (123) 456-7890</p>
     </div>
-    <div class="buttons">
-      <button class="button">c</button>
-      <button class="button">7</button>
-      <button class="button">7</button>
-      <button class="button">91</button>
-      <button class="button">1</button>
-      <button class="button">4</button>
-      <button class="button">51</button>
-      <button class="button">61</button>
-      <button class="button">+</button>
-      <button class="button">12</button>
-      <button class="button">2</button>
-      <button class="button">9</button>
-      <button class="button">/</button>
-      <button class="button">0</button>
-      <button class="button">11.</button>
-      <button class="button">=</button>
-      <button class="button">+</button>
+
+    <div class="section">
+        <div class="section-title">About Me</div>
+        <div class="section-content">
+            <p>Short bio or introduction about yourself.</p>
+        </div>
     </div>
-  </div>
+
+    <div class="section">
+        <div class="section-title">Experience</div>
+        <div class="section-content">
+            <div class="experience-item">
+                <h3>Job Title - Company Name</h3>
+                <p>Month Year - Month Year</p>
+                <p>Description of your responsibilities and achievements.</p>
+            </div>
+            <!-- Repeat for other experiences -->
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="section-content">
+            <div class="education-item">
+                <h3>Degree - School Name</h3>
+                <p>Month Year - Month Year</p>
+                <p>Brief description or notable achievements.</p>
+            </div>
+            <!-- Repeat for other educational qualifications -->
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Skills</div>
+        <div class="section-content">
+            <ul>
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </div>
+
 </body>
 </html>
